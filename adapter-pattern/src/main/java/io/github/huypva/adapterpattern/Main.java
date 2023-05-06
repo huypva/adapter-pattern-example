@@ -9,7 +9,7 @@ public class Main {
 
   public static void main(String[] args) {
     String data = "Jack";
-    Service service = new Service();
+    LegacyService service = new LegacyService();
 
     Adapter adapter = new Adapter(service);
     

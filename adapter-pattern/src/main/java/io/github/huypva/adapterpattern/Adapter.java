@@ -7,7 +7,7 @@ import lombok.AllArgsConstructor;
  */
 @AllArgsConstructor
 public class Adapter implements NewFunction {
-    private Service service;
+    private LegacyService service;
 
     public void method(String data) {
         LegacyObject legacyObject = new LegacyObject(data);
