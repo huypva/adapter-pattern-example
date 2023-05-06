@@ -20,7 +20,6 @@ Make sure following software is installed on your PC
 ```
 
 ## Start project
-
 ```shell
 $ ./mvnw clean package
 $ java -jar ./adapter-pattern/target/adapter-pattern-0.0.1-SNAPSHOT.jar
@@ -28,8 +27,7 @@ $ java -jar ./adapter-pattern/target/adapter-pattern-0.0.1-SNAPSHOT.jar
 ```
 
 ## Contribute
-The code is open sourced. I encourage fellow developers to contribute and help improve it!
-
+The code is open sourced. I encourage fellow developers to contribute and help improve it!Ref
 - Fork it
 - Create your feature branch (git checkout -b new-feature)
 - Ensure all tests are passing
