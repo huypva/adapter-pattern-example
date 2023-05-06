@@ -37,3 +37,4 @@ The code is open sourced. I encourage fellow developers to contribute and help i
 
 ## Reference
 - https://refactoring.guru/design-patterns/adapter
+- https://en.wikipedia.org/wiki/Adapter_pattern
