@@ -11,7 +11,7 @@ Make sure following software is installed on your PC
 ## Project structure
 ```
 .
-├── hello-world
+├── adapter-pattern
 │   ├── pom.xml
 │   ...
 ├── pom.xml
@@ -23,13 +23,8 @@ Make sure following software is installed on your PC
 
 ```shell
 $ ./mvnw clean package
-$ java -jar ./hello-world/target/hello-world-0.0.1-SNAPSHOT.jar
-```
-
-```shell
-Compare str1==str2: true
-Compare str3==str4: false
-Compare value str1.equals(str3): true
+$ java -jar ./adapter-pattern/target/adapter-pattern-0.0.1-SNAPSHOT.jar
+20:59:11.128 [main] INFO io.github.huypva.adapterpattern.Service -- Data:Jack
 ```
 
 ## Contribute
@@ -43,3 +38,4 @@ The code is open sourced. I encourage fellow developers to contribute and help i
 - Create new Pull Request
 
 ## Reference
+- https://refactoring.guru/design-patterns/adapter
